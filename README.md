@@ -53,3 +53,30 @@ ollama pull llama3
 
 # Run FastAPI server
 uvicorn main:app --reload
+
+
+
+
+🌐 Usage
+Open your browser and visit: http://localhost:8000
+
+Type a message or click 🎤 Speak to record voice
+
+Tai_Bot will reply with text and voice
+
+Click 🔊 Voice Reply to replay the bot’s response
+
+
+📁 Project Structure
+tai_bot/
+├── main.py               # FastAPI app
+├── tts.py                # Text-to-speech logic
+├── stt.py                # Speech-to-text logic
+├── ollama_client.py      # LLM query logic
+├── templates/
+│   └── chat.html         # Frontend UI
+├── static/
+│   └── style.css         # Styling
+├── temp_audio/           # Audio files
+└── requirements.txt      # Python dependencies
+
