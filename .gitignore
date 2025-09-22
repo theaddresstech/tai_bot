@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.mp3
+*.wav
+temp_audio/
+.env
+web_rtc/
+.idea/
+.vscode/
