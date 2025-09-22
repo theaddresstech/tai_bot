@@ -34,14 +34,6 @@ Tai_Bot is a real-time, voice-enabled chatbot powered by open-source AI models. 
 ## 📦 Installation
 
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/tai_bot.git
-cd tai_bot
-
-# Create virtual environment
-python3 -m venv web_rtc
-source web_rtc/bin/activate
-
 # Install dependencies
 pip install -r requirements.txt
 
