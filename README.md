@@ -46,9 +46,6 @@ ollama pull llama3
 # Run FastAPI server
 uvicorn main:app --reload
 
-
-
-
 🌐 Usage
 Open your browser and visit: http://localhost:8000
 
