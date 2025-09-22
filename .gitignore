@@ -1,11 +1,27 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environment
+tai_env/
+
+# Audio files and temp folder
 *.mp3
 *.wav
 temp_audio/
+
+# Environment variables
 .env
-web_rtc/
+
+# IDE configs
 .idea/
 .vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
